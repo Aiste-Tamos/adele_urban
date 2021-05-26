@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/adele_urbanstatic/css/main.3cb3cbaf.chunk.css",
-    "main.js": "/adele_urbanstatic/js/main.31d0c59f.chunk.js",
-    "main.js.map": "/adele_urbanstatic/js/main.31d0c59f.chunk.js.map",
+    "main.js": "/adele_urbanstatic/js/main.eed8a938.chunk.js",
+    "main.js.map": "/adele_urbanstatic/js/main.eed8a938.chunk.js.map",
     "runtime-main.js": "/adele_urbanstatic/js/runtime-main.561ccd36.js",
     "runtime-main.js.map": "/adele_urbanstatic/js/runtime-main.561ccd36.js.map",
     "static/js/2.0cadf298.chunk.js": "/adele_urbanstatic/js/2.0cadf298.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.561ccd36.js",
     "static/js/2.0cadf298.chunk.js",
     "static/css/main.3cb3cbaf.chunk.css",
-    "static/js/main.31d0c59f.chunk.js"
+    "static/js/main.eed8a938.chunk.js"
   ]
 }
