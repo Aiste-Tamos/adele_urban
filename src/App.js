@@ -9,13 +9,13 @@ function App() {
     <Router>
       <div className="App">
         <Switch>
-          <Route exact path="https://aiste-tamos.github.io/adele_urban/#/">
+          <Route exact path="/">
             <MainLayout />
           </Route>
-          <Route exact path="https://aiste-tamos.github.io/adele_urban/#/paintings">
+          <Route exact path="/paintings">
             <PaintingsPage />
           </Route>
-          <Route exact path="https://aiste-tamos.github.io/adele_urban/#/exhibitions">
+          <Route exact path="/exhibitions">
             <ExhibitionsPage />
           </Route>
         </Switch>

@@ -14,7 +14,7 @@ export const ArtworkSection = () => {
     <section className={mainClass}>
       <div className={wrapperClass}>
         <div className={imageWrapperClass}>
-          <Link to="https://aiste-tamos.github.io/adele_urban/#/paintings">
+          <Link to="/paintings">
             <img
               className={imageClass}
               src="https://art.kunstmatrix.com/en/system/files/styles/large/private/art/6962/untitled-1.jpg?itok=ru5FQnAD"
