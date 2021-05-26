@@ -1,0 +1,9 @@
+@mixin visible {
+    clip: unset;
+    clip-path: none;
+    height: auto;
+    overflow: visible;
+    position: static;
+    white-space: unset;
+    width: auto;
+}

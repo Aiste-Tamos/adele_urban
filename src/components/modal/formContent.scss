@@ -1,0 +1,102 @@
+@import "../../styles";
+
+.form-content {
+  width: 90%;
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+  }
+
+  &__input {
+    margin-bottom: get-rem(15);
+    width: 100%;
+  }
+
+  &__message-wrapper {
+    flex: 1 1 auto;
+  }
+
+  &__message {
+    @include typography-body;
+
+    background-color: $color-white;
+    border: get-rem(2) solid $color-grey-light;
+    border-radius: get-rem(5);
+    color: $color-grey-dark;
+    height: 80%;
+    padding: get-rem(13) get-rem(20) get-rem(13) get-rem(16);
+    resize: none;
+    scrollbar-width: thin;
+    scrollbar-color: $color-primary;
+    text-overflow: ellipsis;
+    width: 100%;
+
+    &::-webkit-scrollbar {
+      width: get-rem(4);
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background-color: $color-primary;
+      border-radius: 20px;
+    }
+  }
+
+  &__message-label {
+    @include typography-body;
+
+    display: block;
+    text-align: start;
+    text-transform: uppercase;
+  }
+
+  &__submit-button {
+    align-self: center;
+    background: rgba($color-primary, 0.4);
+    border: get-rem(2) solid $color-grey-light;
+    border-radius: get-rem(5);
+    bottom: get-rem(25);
+    cursor: pointer;
+    padding: get-rem(3) get-rem(10);
+    position: absolute;
+    transition: all 0.2s;
+    width: get-rem(70);
+
+    &:hover {
+      background: rgba($color-primary, 0.5);
+    }
+
+    &:disabled {
+      background: $color-grey-light;
+      cursor: not-allowed;
+    }
+  }
+
+  @media (max-height: get-rem(560)) and (orientation: landscape) {
+    &__form {
+      align-items: start;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+
+    &__input {
+      width: 45%;
+      margin-right: get-rem(10);
+      margin-bottom: 0;
+    }
+
+    &__message-wrapper {
+      display: flex;
+      flex-direction: column;
+      height: 45%;
+      width: 45%;
+    }
+  }
+
+  @media (min-height: get-rem(1200)) {
+    &__message {
+      height: 95%;
+    }
+  }
+}

@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+@import 'base/base';
+@import 'mixins/';
+// @import 'variables/';
+
+* {
+    font-family: $font-family;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}

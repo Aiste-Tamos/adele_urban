@@ -1,0 +1,30 @@
+@import "../../styles";
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: get-rem(20);
+  width: 100%;
+
+  &__description {
+    @include typography-body;
+
+    padding: 0 get-rem(30);
+    margin-top: get-rem(60);
+    text-align: justify;
+  }
+
+  @media screen and (min-width: get-rem(440)) {
+    &__description {
+      margin-top: get-rem(20);
+    }
+  }
+
+  @media screen and (min-width: get-rem(1000)) {
+    &__description {
+      align-self: center;
+      width: 50%;
+    }
+  }
+}

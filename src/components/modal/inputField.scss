@@ -1,0 +1,28 @@
+@import "../../styles";
+
+.input-field {
+  @include typography-body;
+
+  background-color: $color-white;
+  border: get-rem(2) solid $color-grey-light;
+  border-radius: get-rem(5);
+  color: $color-grey-dark;
+  display: inline-block;
+  outline: 0;
+  padding: get-rem(13) get-rem(40) get-rem(13) get-rem(16);
+  position: relative;
+  text-overflow: ellipsis;
+  width: 100%;
+
+  &__label {
+    @include typography-body;
+
+    display: block;
+    text-align: start;
+    text-transform: uppercase;
+  }
+
+  @media (orientation: landscape) {
+    padding: get-rem(5) get-rem(40) get-rem(5) get-rem(16);
+  }
+}

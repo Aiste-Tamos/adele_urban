@@ -1,0 +1,50 @@
+{
+  "name": "adele_urban",
+  "homepage": "http://aiste-tamos.github.io/adele_urban",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-query": "^3.16.0",
+    "react-scripts": "4.0.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b main -d build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "css-loader": "^4.3.0",
+    "emailjs-com": "^2.6.4",
+    "eslint-plugin-formatjs": "^2.15.3",
+    "eslint-plugin-prettier": "^3.4.0",
+    "gh-pages": "^3.2.0",
+    "node-sass": "^6.0.0",
+    "postcss": "^7.0.35",
+    "prettier": "^2.3.0",
+    "react-router-dom": "^5.2.0"
+  }
+}

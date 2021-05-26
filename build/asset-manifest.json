@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/adele_urban/static/css/main.3cb3cbaf.chunk.css",
+    "main.js": "/adele_urban/static/js/main.14d75cdf.chunk.js",
+    "main.js.map": "/adele_urban/static/js/main.14d75cdf.chunk.js.map",
+    "runtime-main.js": "/adele_urban/static/js/runtime-main.4fe03dea.js",
+    "runtime-main.js.map": "/adele_urban/static/js/runtime-main.4fe03dea.js.map",
+    "static/js/2.0cadf298.chunk.js": "/adele_urban/static/js/2.0cadf298.chunk.js",
+    "static/js/2.0cadf298.chunk.js.map": "/adele_urban/static/js/2.0cadf298.chunk.js.map",
+    "index.html": "/adele_urban/index.html",
+    "static/css/main.3cb3cbaf.chunk.css.map": "/adele_urban/static/css/main.3cb3cbaf.chunk.css.map",
+    "static/js/2.0cadf298.chunk.js.LICENSE.txt": "/adele_urban/static/js/2.0cadf298.chunk.js.LICENSE.txt",
+    "static/media/close.da5c4222.svg": "/adele_urban/static/media/close.da5c4222.svg",
+    "static/media/instagram.6671d916.svg": "/adele_urban/static/media/instagram.6671d916.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4fe03dea.js",
+    "static/js/2.0cadf298.chunk.js",
+    "static/css/main.3cb3cbaf.chunk.css",
+    "static/js/main.14d75cdf.chunk.js"
+  ]
+}

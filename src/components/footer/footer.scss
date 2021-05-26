@@ -1,0 +1,36 @@
+@import '../../styles';
+
+.footer {
+    @include typography-h3;
+
+    align-items: flex-start;
+    border-top: 1px solid $color-grey-light;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: get-rem(30);
+
+    &__open-modal-button {
+        background: transparent;
+        border: none;
+        cursor: pointer;
+        padding-bottom: get-rem(10);
+    }
+
+    &__icon-container {
+        padding-bottom: get-rem(10);
+
+        svg {
+            height: get-rem(23);
+            width: get-rem(23);
+        }
+    }
+
+    &__copyright {
+        padding-bottom: get-rem(10);
+    }
+
+    @media screen and (min-width: get-rem(690)) {
+        padding: 5%;
+    }
+}

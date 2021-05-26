@@ -1,0 +1,40 @@
+@import "../../styles";
+
+.art-section {
+  border-top: 1px solid $color-grey-light;
+  height: max-content;
+  padding: get-rem(20) get-rem(30);
+
+  &__wrapper {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__image-wrapper {
+    width: 90%;
+
+    &:first-child {
+      margin-bottom: get-rem(20);
+    }
+  }
+
+  &__image {
+    width: 90%;
+  }
+
+  @media screen and (min-width: get-rem(560)) {
+    &__wrapper {
+      align-items: flex-start;
+      flex-direction: row;
+      justify-content: center;
+    }
+
+    &__image-wrapper {
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      max-width: get-rem(380);
+    }
+  }
+}

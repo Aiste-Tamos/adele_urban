@@ -1,0 +1,54 @@
+@import "../../styles";
+
+.paintings {
+  color: $color-grey-dark;
+  padding: get-rem(10);
+
+  &__painting {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  &__painting-title {
+    @include typography-h1;
+  }
+
+  &__painting-info {
+    @include typography-h3;
+  }
+
+  &__image-wrapper {
+    margin-top: get-rem(40);
+  }
+
+  &__image {
+    width: 100%;
+  }
+
+  &__button {
+    @include typography-h2;
+
+    color: $color-grey-dark;
+    text-decoration: none;
+  }
+
+  @media screen and (min-width: get-rem(620)) {
+    &__painting {
+      align-items: center;
+      display: grid;
+      grid-gap: get-rem(10);
+      grid-template-columns: get-rem(430) 1fr;
+    }
+  }
+
+  @media screen and (min-width: get-rem(850)) {
+    &__painting {
+      grid-template-columns: get-rem(500) 1fr;
+    }
+
+    &__painting-info {
+      max-width: get-rem(400);
+    }
+  }
+}

@@ -1,0 +1,80 @@
+@import "../../styles";
+
+.modal {
+  @include typography-h1;
+
+  align-items: center;
+  background-color: rgba($color-grey-dark, 0.7);
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+
+  @supports (-webkit-backdrop-filter: blur(5px)) or (backdrop-filter: blur(5px)) {
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    background-color: rgba($color-grey-dark, 0.5);
+  }
+
+  &__content {
+    background-color: $color-white;
+    border-radius: get-rem(2);
+    box-shadow: 0 get-rem(32) get-rem(64) rgba($color-grey-dark, 0.2);
+    display: flex;
+    height: 90%;
+    justify-content: center;
+    padding-top: get-rem(30);
+    position: absolute;
+    width: 90%;
+    z-index: 10;
+  }
+
+  &__close-button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    height: get-rem(20);
+    padding: 0;
+    position: absolute;
+    right: get-rem(15);
+    top: get-rem(15);
+    width: get-rem(20);
+    z-index: 10;
+
+    svg {
+      fill: $color-primary;
+    }
+  }
+
+  @media screen and (min-width: get-rem(700)) {
+    &__content {
+      height: 80%;
+      width: 70%;
+    }
+  }
+
+  @media screen and (min-width: get-rem(800)) {
+    &__content {
+      height: 80%;
+      width: 60%;
+    }
+  }
+
+  @media (min-width: get-rem(700)) and (min-height: get-rem(1000)) {
+    &__content {
+      height: 60%;
+      width: 70%;
+    }
+  }
+
+  @media screen and (min-width: get-rem(1200)) {
+    &__content {
+      height: 60%;
+      width: 50%;
+    }
+  }
+}
