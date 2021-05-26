@@ -23,7 +23,7 @@ export const ArtworkSection = () => {
           </Link>
         </div>
         <div className={imageWrapperClass}>
-          <Link to="https://aiste-tamos.github.io/adele_urban/#/paintings">
+          <Link to="/paintings">
             <img
               className={imageClass}
               src="https://www.paveikslai.lt/67136-large_default/baimes.jpg"
