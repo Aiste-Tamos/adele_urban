@@ -5,4 +5,3 @@ Main functionality is that users can send messages to artist email through the w
 
 Website is still in production, but progress can be seen here: https://aiste-tamos.github.io/adele_urban/
 
-# adele_urban
