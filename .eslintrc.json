@@ -6,6 +6,7 @@
       "react-app"
     ],
     "plugins": ["react", "jsx-a11y", "formatjs", "react-hooks", "prettier"],
+    "ignorePatterns": ["build", "node_modules"],
     "rules": {
       "no-console": "warn",
       "react/display-name": "warn",

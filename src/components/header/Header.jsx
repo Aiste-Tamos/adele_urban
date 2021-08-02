@@ -57,20 +57,30 @@ export const Header = ({ className, ...other }) => {
         }
       >
         <ul className={navClass}>
+        <li className={navItemClass}>
+            <a className={navLinkClass} href="#about">
+              About
+            </a>
+          </li>
           <li className={navItemClass}>
             <a className={navLinkClass} href="#paintings">
-              Paintings
+              Artist statement
             </a>
           </li>
           <li className={navItemClass}>
             <Link to="/exhibitions" className={navLinkClass}>
-              Exhibitions
+              Artwork
             </Link>
           </li>
           <li className={navItemClass}>
             <button className={navButtonClass} onClick={openModal}>
               Contact
             </button>
+          </li>
+          <li className={navItemClass}>
+            <Link to="/instagram" className={navLinkClass}>
+              instagram
+            </Link>
           </li>
         </ul>
       </nav>

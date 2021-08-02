@@ -12,7 +12,7 @@ $font-family: "Manrope", sans-serif;
 }
 
 @mixin typography-h1 {
-  @include base-font(get-rem(20), 600, 0, 1.2);
+  @include base-font(get-rem(36), 200, 0, 1.2);
 }
 
 @mixin typography-h2 {

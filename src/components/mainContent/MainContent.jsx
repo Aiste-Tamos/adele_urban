@@ -1,4 +1,5 @@
 import React from "react";
+import Feed from "react-instagram-authless-feed";
 
 import "./mainContent.scss";
 
@@ -21,6 +22,7 @@ export const MainContent = () => {
         corporis natus sunt, deleniti earum optio nulla cum doloremque
         exercitationem voluptate reiciendis aliquam. Nulla, praesentium tenetur?
       </div>
+      <Feed userName="adele.urban" className="Feed" classNameLoading="Loading"></Feed>
     </div>
   );
 };

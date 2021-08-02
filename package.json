@@ -1,22 +1,21 @@
 {
   "name": "adele_urban",
-  "homepage": "http://aiste-tamos.github.io/adele_urban#/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "classnames": "^2.2.6",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-instagram-authless-feed": "github:jamesmoriarty/react-instagram-authless-feed#v1.0.2",
     "react-query": "^3.16.0",
-    "react-scripts": "4.0.3"
+    "react-scripts": "4.0.3",
+    "typescript": "^4.3.5"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
@@ -41,7 +40,6 @@
     "emailjs-com": "^2.6.4",
     "eslint-plugin-formatjs": "^2.15.3",
     "eslint-plugin-prettier": "^3.4.0",
-    "gh-pages": "^3.2.0",
     "node-sass": "^6.0.0",
     "postcss": "^8.2.10",
     "prettier": "^2.3.0",
